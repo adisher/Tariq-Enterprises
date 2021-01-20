@@ -234,8 +234,12 @@ header .intro-text {
 	color: rgba(255,255,255,.7);
 	background: #1f386e;
 }
+#get-touch h2 {
+	font-weight: 400;
+	color: #fff;
+	margin: 0 0 10px 0;
+}
 #get-touch h3 {
-	font-size: 24px;
 	font-weight: 400;
 	color: #fff;
 	margin: 0 0 10px 0;
@@ -249,6 +253,110 @@ header .intro-text {
 	color: #1f386e;
 	background: #fff;
 	border: 2px solid #fff;
+}
+/* Profile Section */
+#profile {
+	padding: 110px 0;
+}
+#profile h3 {
+	font-size: 22px;
+	margin: 0 0 20px 0;
+}
+#profile h2 {
+	position: relative;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+#profile h2::after {
+	position: absolute;
+	content: "";
+	background-color: #e52f3c;
+	height: 3px;
+	width: 50px;
+	bottom: -1px;
+	left: 0;
+}
+#profile .about-text li {
+	margin-bottom: 6px;
+	margin-left: 8px;
+	list-style: none;
+	padding: 0;
+	margin-top: 50px;
+}
+#profile .about-text li:before {
+	content: '\f067';
+	font-family: 'FontAwesome';
+	color: #1f386e;
+	font-size: 20px;
+	font-weight: 300;
+	padding-right: 8px;
+}
+
+
+#profile img {
+	padding: 20px;
+	width: 500px;
+	margin-top: 10px;
+	background: #fff;
+	border-right: 0;
+	box-shadow: 0 0 50px rgba(0,0,0,0.06);
+}
+#profile p {
+	line-height: 24px;
+	margin: 30px 0;
+}
+/* finishes */
+#finishes {
+	padding: 110px 0;
+}
+#finishes h3 {
+	font-size: 22px;
+	margin: 0 0 20px 0;
+}
+#finishes h2 {
+	position: relative;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+#finishes h2::after {
+	position: absolute;
+	content: "";
+	background-color: #e52f3c;
+	height: 3px;
+	width: 50px;
+	bottom: -1px;
+	left: 0;
+}
+#finishes .about-text li {
+	margin-bottom: 6px;
+	margin-left: 8px;
+	list-style: none;
+	padding: 0;
+	margin-top: 50px;
+}
+#finishes .about-text li:before {
+	content: '\f00c';
+	font-family: 'FontAwesome';
+	color: #1f386e;
+	font-size: 20px;
+	font-weight: 300;
+	padding-right: 8px;
+}
+
+
+#finishes img {
+	padding: 20px;
+	width: 500px;
+	margin-top: 10px;
+	background: #fff;
+	border-right: 0;
+	box-shadow: 0 0 50px rgba(0,0,0,0.06);
+}
+#profile p {
+	line-height: 24px;
+	margin: 30px 0;
 }
 /* About Section */
 #about {
