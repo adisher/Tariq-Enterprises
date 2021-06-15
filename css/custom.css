@@ -1,0 +1,331 @@
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+a svg{
+    fill: #2a3444;
+}
+.img-wrap img{
+    width: 100%;
+}
+.logo, .img-wrap{
+ width: 175px;
+}
+.header-menu a{
+    padding: 30px 12px !important;
+}
+.header--standard-landing .header-menu .js-expanded-menu .olymp-close-icon{
+    right: 13px !important;
+    top: 30px !important;
+}
+.shoping-cart .count-product{
+    top: 20px !important;
+    right: 6px !important;
+}
+.bg-red{
+    background-color: #db2f61 !important;
+}
+.bg-orrenge{
+    background-color: #FF5E3A !important;
+    margin-bottom: 45px !important;
+    border: none !important;
+    padding: 1rem 2rem !important;
+    margin-left: 15px !important;
+    border: 2px solid #FF5E3A !important;
+}
+.main-header{
+    margin: 0 auto 0px !important;
+}
+.register-btn{
+    padding: 1rem 3rem !important;
+}
+.bg-google{
+    background-color: #6799f2 !important;
+}
+.landing-content h1{
+    font-weight: 900 !important;
+}
+.banner{
+    background-repeat: no-repeat !important;
+    animation: inherit !important;
+    background-size: cover !important;
+    background-position: top !important;
+}
+.banner::before{
+    background-color: inherit !important;
+}
+.landing-content ul li{
+    font-size: 14px;
+    font-weight: 500;
+}
+.builder-content{
+    margin: 100px 0 0 0;
+}
+.builder-content h1{
+    font-weight: 700;
+    color: #FF5E3A;
+    font-size: 45px;
+}
+.builder-content h4{
+    font-weight: 500;
+    font-size: 21px;
+}
+.builder-content p{
+    width: 62%;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 390px;
+    perspective: 1000px;
+    transition: transform 0.6s;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    border: 1px solid #e6ecf5;
+  }
+  /*.flip-card:hover{*/
+  /*    transform: scaleY(1.1);*/
+  /*}*/
+  .flip-card:hover .flip-card-inner {
+    border: 1px solid #e6ecf5;
+    transform: rotateY(180deg);
+    box-shadow: 1px 0px 9px 6px rgba(255,75,35,0.24);
+    -webkit-box-shadow: 1px 0px 9px 6px rgba(255,75,35,0.24);
+    -moz-box-shadow: 1px 0px 9px 6px rgba(255,75,35,0.24);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-front .text{
+      padding: 15px 15px 0 15px;
+      height: 160px;
+  }
+  .flip-card-front .text h4{
+    font-size: 14px;
+    font-weight: normal;
+    color: #A9A9A9;
+  }
+  
+  .flip-card-front .text h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #223148;
+  }
+
+  .flip-card-front {
+    background-color: white;
+    color: black;
+    text-align: left;
+  }
+  
+  .flip-card-back {
+    background-color: white;
+    color: black;
+    transform: rotateY(180deg);
+  }
+  .flip-card-front img{
+      height: 150px;
+      width: 100%;
+  }
+  .flip-card .price{
+      padding: 0 15px;
+  }
+  .flip-card .price ul li{
+      color: #223148;
+  }
+  .flip-card .price ul li del{
+      color: #A9A9;
+  }
+  .flip-card .price ul li i{
+    color: #ffae43;
+  }
+  .flip-card .price ul{
+      display: inline-block;
+      margin-bottom: 0;
+  }
+  .flip-card ul li{
+    display: inline-block;
+  }
+  
+
+  .flip-card-back{
+      padding: 15px 20px;
+  }
+  .flip-card .top img{
+      width: 80px !important;
+  }
+  .flip-card .top ul li{
+      margin-top: 5px;
+  }
+  .flip-card .top ul{
+      margin-bottom: 48px !important;
+  }
+  .flip-card .top ul li i{
+    color: #ffae43;
+    font-size: 13px;
+  }
+  .middle h1,.middle h2,.middle h3,.middle h4,.middle h5,.middle p{
+      text-align: left;
+  }
+  .middle h4{
+      font-size: 15px;
+      font-weight: 700;
+      margin-top: 20px;
+      color: #223148;
+  }
+  .middle-text{
+      height: 165px;
+  }
+  .bottom .bg-orrenge{
+      width: 100%;
+      margin-bottom: 10px !important;
+      margin-left: 0 !important;
+  }
+  .bottom a>svg{
+      height: 14px;
+      width: 14px;
+      fill: #b5b5b5;
+  }
+  .preview{
+      background-color: #ff5e3a;
+      display: block;
+  }
+  .icon-price .icon:hover{
+    background-color: #ff5e3a;
+    border-color: #ff5e3a;
+  }
+  .icon-price .icon:hover svg{
+      fill: white !important;
+  }
+  .icon-price .icon{
+      padding: 4px 4px;
+      border-radius: 100%;
+      border: 1px solid rgb(192, 192, 192);
+      color: rgb(196, 196, 196);
+      cursor: pointer;
+      transition: all linear 0.5s;
+      text-align: center;
+  }
+.categories{
+    border: 1px solid rgb(218, 218, 218);
+}
+.categories img{
+    height: 185px;
+}
+.categories p{
+    padding: 0 10px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 5px;
+}
+.table-careers .date{
+    padding-left:22px !important;
+}
+.table-careers .head span{
+    font-size: 12px !important;
+    font-weight: 700 !important;
+}
+.p-7px{
+    padding:0px 7px !important;
+}
+.friends-harmonic a{
+    margin-left: 0 !important;
+}
+
+/* Nav Logged IN */
+.lognav{
+    top: 65px !important;
+}
+
+.lognav ul li a{
+    color: #3c3b37 !important;
+    padding-top: 23px !important;
+    padding-bottom: 23px !important;
+}
+.lognav ul li a svg{
+    fill: #3c3b37 !important;
+}
+.lognav .shoping-cart .count-product{
+    color: #3c3b37 !important;
+}
+.create-tab{
+    padding: 38px;
+    border: 1px solid #e6ecf5;
+    border-radius: 15px;
+    transition: all linear 0.3s;
+    text-align: center;
+}
+.create-tab:hover{
+    border-color: #ff5e3a;
+    transition: all linear 0.3s;
+    color: #65c2d2;
+}
+.create-tab a{
+    font-weight: 700; 
+    font-size: 18px;
+    color: #515365;
+    transition: all linear 0.3s;
+}
+.create-tab:hover a, .create-tab:hover h3{
+    transition: all linear 0.3s;
+    color: #65c2d2;
+}
+
+.create-tab img{
+    height: 70px;
+    background-color: #ff5e3a;
+    float: left ;
+    
+}
+.create-tab h3{
+    display: inline-block;
+    font-size: 18px;
+    width: 70%;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-left: 11px;
+    text-align: left;
+    transition: all linear 0.3s;
+}
+
+.mx-15{
+    margin: 0 15px !important;
+}
+.log-builder .builder-content h4{
+    font-size: 30px;
+    font-weight: 700;
+    color: #3c3b37;
+}
+
+
+@media (max-width: 1080px)
+{
+    .bg-orrenge{
+        padding: .6rem .5rem !important;
+    }
+}
+@media (max-width: 1080px)
+{
+    .flip-card{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px){
+    .img-wrap img{
+        width: 100%;
+    }
+}
