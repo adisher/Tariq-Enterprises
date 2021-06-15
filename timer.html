@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tariq Enterprises</title>
+  <meta name="description" content="For Website Development, email at adilsher973@gmail.com">
+  <meta name="author" content="Adil Sher">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Bootstrap -->
+
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
+
+  <!-- Stylesheet
+    ================================================== -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+  <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <div class="row">
+    <div class="col-md-1">
+      
+    </div>
+    <div class="col-md-10 text-center">
+      <h1>Site Closed</h1>
+      <h1>Domain will be put to sale in 
+        <div class="row">
+          <span class="text-danger" id="timer"></span>
+        </div>
+      </h1>
+    </div>
+    <div class="col-md-1">
+      
+    </div>
+  </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.js"></script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/nivo-lightbox/1.2.0/nivo-lightbox.js"></script>
+    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="js/contact_me.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script type="text/javascript">
+      // Set the date we're counting down to
+      var countDownDate = new Date("Jan 29, 2021 8:00:25").getTime();
+      
+      // Update the count down every 1 second
+      var x = setInterval(function() {
+      
+        // Get today's date and time
+        var now = new Date().getTime();
+          
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+          
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          
+        // Output the result in an element with id="demo"
+        document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+          
+        // If the count down is over, write some text 
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("timer").innerHTML = "Domain For Sale, email at adilsher973@gmail.com";
+        }
+      }, 1000);
+      </script>
+</body>
+
+</html>
